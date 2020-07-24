@@ -14,7 +14,6 @@ $warning-light-orange: #f8b588;
   @include H6;
 
   font-weight: 500;
-  line-height: 1.25rem;
   padding: 0.75rem 1rem;
   display: flex;
   justify-content: center;
@@ -36,7 +35,6 @@ $warning-light-orange: #f8b588;
   @include H4;
 
   color: $Blue-500;
-  line-height: 1.25rem;
   cursor: pointer;
   background-color: transparent;
 
@@ -243,11 +241,12 @@ input[type="submit"][disabled] {
 }
 
 button.primary {
+  @include H4;
+
   padding: 8px 12px;
   background: #f7861c;
   box-shadow: 0 3px 6px rgba(247, 134, 28, 0.36);
   color: $white;
-  font-size: 1.1em;
   text-transform: uppercase;
 }
 

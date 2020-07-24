@@ -36,8 +36,7 @@
     }
 
     &__text {
-      font-size: 16px;
-      line-height: 21px;
+      @include Paragraph;
     }
 
     &__subtext {

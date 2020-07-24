@@ -53,14 +53,15 @@
   cursor: pointer;
 
   &__text {
+    @include H6;
+
     margin-top: 2px;
-    font-size: 14px;
-    line-height: 18px;
   }
 }
 
 .account-modal-close {
-  font-size: 40px;
+  @include H1;
+
   background-color: transparent;
   color: $dusty-gray;
   position: absolute;
@@ -142,9 +143,9 @@
 
 .private-key-password-label,
 .private-key-password-error {
+  @include H6;
+
   color: $scorpion;
-  font-size: 14px;
-  line-height: 18px;
   margin-bottom: 10px;
 }
 
@@ -154,9 +155,9 @@
 }
 
 .private-key-password-input {
+  @include Paragraph;
+
   padding: 10px 0 13px 17px;
-  font-size: 16px;
-  line-height: 21px;
   width: 291px;
   height: 44px;
 }
@@ -166,11 +167,11 @@
 }
 
 .private-key-password-warning {
+  @include H7;
+
   border-radius: 8px;
   background-color: #fff6f6;
-  font-size: 12px;
   font-weight: 500;
-  line-height: 15px;
   color: $crimson;
   width: 292px;
   padding: 9px 15px;
@@ -201,9 +202,9 @@
 }
 
 .private-key-password-display-textarea {
+  @include Paragraph;
+
   color: $crimson;
-  font-size: 16px;
-  line-height: 21px;
   border: none;
   height: 75px;
   width: 100%;
@@ -213,8 +214,9 @@
 }
 
 .modal-close-x::after {
+  @include H2;
+
   content: '\00D7';
-  font-size: 2em;
   color: $dusty-gray;
   position: absolute;
   top: 25px;
@@ -242,29 +244,29 @@
   }
 
   &__symbol {
+    @include Paragraph;
+
     color: $tundora;
-    font-size: 16px;
-    line-height: 24px;
     text-align: center;
     margin-bottom: 7.5px;
   }
 
   &__title {
+    @include H3;
+
     height: 30px;
     width: 271.28px;
     color: $tundora;
-    font-size: 22px;
-    line-height: 30px;
     text-align: center;
     margin-bottom: 10.5px;
   }
 
   &__copy {
+    @include Paragraph;
+
     height: 41px;
     width: 318px;
     color: $scorpion;
-    font-size: 14px;
-    line-height: 18px;
     text-align: center;
   }
 
@@ -353,15 +355,15 @@
     align-items: flex-start;
 
     &__title {
+      @include H3;
+
       color: $white;
-      font-size: 24px;
-      line-height: 32px;
     }
 
     &__description {
+      @include Paragraph;
+
       color: $white;
-      font-size: 16px;
-      line-height: 22px;
       margin-top: 10px;
     }
 
@@ -452,13 +454,12 @@
       }
 
       &__title {
-        font-size: 20px;
-        line-height: 30px;
+        @include H4;
       }
 
       &__text {
-        font-size: 14px;
-        line-height: 22px;
+        @include H6;
+
         margin-top: 7px;
       }
     }
@@ -482,15 +483,14 @@
   }
 
   .simple-dropdown {
+    @include Paragraph;
+
     color: #5b5d67;
-    font-size: 16px;
-    line-height: 21px;
     border: 1px solid #d8d8d8;
     background-color: #fff;
     text-align: center;
     width: 100%;
     height: 45px;
-    line-height: 44px;
     font-weight: 300;
   }
 
@@ -512,13 +512,14 @@
 }
 
 .notification-modal-header {
+  @include H3;
+
   background: $wild-sand;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 30px;
-  font-size: 22px;
   color: $nile-blue;
 }
 

@@ -69,9 +69,10 @@
   }
 
   &__textarea {
+    @include Paragraph;
+
     /*rtl:ignore*/
     direction: ltr;
-    font-size: 1rem;
     border: 1px solid #cdcdcd;
     border-radius: 6px;
     background-color: #fff;
@@ -92,14 +93,14 @@
   }
 
   &__markdown {
+    @include H7;
+
     border: 1px solid #979797;
     border-radius: 8px;
     background-color: $white;
     height: 200px;
     overflow-y: auto;
     color: #757575;
-    font-size: 0.75rem;
-    line-height: 15px;
     text-align: justify;
     margin: 0;
     padding: 16px 20px;
@@ -148,10 +149,8 @@
   }
 
   &__checkbox-label {
-    font-style: normal;
-    font-weight: normal;
-    line-height: normal;
-    font-size: 18px;
+    @include H4;
+
     color: #939090;
     margin-left: 18px;
   }

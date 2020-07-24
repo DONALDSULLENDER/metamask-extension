@@ -38,9 +38,9 @@
   min-height: min-content;
 
   &__title {
-    font-style: normal;
+    @include H5;
+
     font-weight: 500;
-    font-size: 18px;
   }
 
   &__identicon-container {

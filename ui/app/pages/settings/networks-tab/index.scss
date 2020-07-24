@@ -96,10 +96,8 @@
   }
 
   &__network-form-label {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 20px;
+    @include H6;
+
     color: #000;
   }
 
@@ -137,7 +135,6 @@
     .button {
       width: 138px;
       padding: 10px;
-      line-height: 20px;
     }
 
     @media screen and (max-width: 575px) {
@@ -175,11 +172,9 @@
   }
 
   &__networks-list-name {
+    @include Paragraph;
+
     margin-left: 11px;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 23px;
     color: #6a737d;
 
     &:hover {

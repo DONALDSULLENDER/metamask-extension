@@ -61,9 +61,9 @@
   }
 
   &__header__text {
+    @include H3;
+
     color: #5b5d67;
-    font-size: 22px;
-    line-height: 29px;
     z-index: 3;
     text-align: center;
   }
@@ -101,10 +101,10 @@
   }
 
   &__account-item {
+    @include H7;
+
     height: 22px;
     background-color: $white;
-    line-height: 16px;
-    font-size: 12px;
     width: 124px;
 
     .account-list-item {
@@ -153,8 +153,8 @@
   }
 
   &__notice {
-    font-size: 14px;
-    line-height: 19px;
+    @include H6;
+
     text-align: center;
     margin-top: 15px;
     margin-bottom: 11px;
@@ -213,7 +213,6 @@
       text-align: center;
       left: calc(50% - 100px);
       background-color: white;
-      line-height: 1em;
       border-radius: 3px;
     }
 

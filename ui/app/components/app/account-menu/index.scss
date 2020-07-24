@@ -37,13 +37,13 @@
   }
 
   &__lock-button {
+    @include H7;
+
     border: 1px solid $dusty-gray;
     background-color: transparent;
     color: $white;
     border-radius: 4px;
-    font-size: 12px;
-    line-height: 23px;
-    padding: 0 24px;
+    padding: 4px 24px;
   }
 
   &__item-icon {
@@ -161,8 +161,8 @@
   }
 
   &__action {
-    font-size: 16px;
-    line-height: 18px;
+    @include Paragraph;
+
     cursor: pointer;
   }
 

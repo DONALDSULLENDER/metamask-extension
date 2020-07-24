@@ -4,8 +4,8 @@
   They are included first because they will be used to replace bad variable names in itcss
   prior to it being fully removed from the system.
 */
-@import './design-system/index';
 @import './reset.scss';
+@import './design-system/index';
 @import './base-styles.scss';
 
 /*

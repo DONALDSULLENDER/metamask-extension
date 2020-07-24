@@ -64,8 +64,7 @@
 
   &__account-primary-balance,
   &__account-secondary-balance {
-    line-height: 16px;
-    font-size: 12px;
+    @include H7;
   }
 
   &__balance-flag {

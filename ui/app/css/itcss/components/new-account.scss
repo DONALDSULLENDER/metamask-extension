@@ -22,10 +22,10 @@
   }
 
   &__title {
+    @include H2;
+
     color: $tundora;
-    font-size: 32px;
     font-weight: 500;
-    line-height: 43px;
     margin-top: 22px;
     margin-left: 29px;
   }
@@ -36,11 +36,11 @@
     margin-top: 10px;
 
     &__tab {
+      @include H4;
+
       height: 54px;
       padding: 15px 10px;
       color: $dusty-gray;
-      font-size: 18px;
-      line-height: 24px;
       text-align: center;
       cursor: pointer;
     }
@@ -60,13 +60,13 @@
 }
 
 .new-account-import-disclaimer {
+  @include H7;
+
   width: 120%;
   background-color: #f4f9fc;
   display: inline-block;
   align-items: center;
   padding: 20px 30px 20px;
-  font-size: 12px;
-  line-height: 1.5;
 }
 
 .new-account-import-form {
@@ -84,9 +84,9 @@
   }
 
   &__select-label {
+    @include Paragraph;
+
     color: $scorpion;
-    font-size: 16px;
-    line-height: 21px;
   }
 
   &__select {
@@ -119,9 +119,9 @@
   }
 
   &__instruction {
+    @include Paragraph;
+
     color: $scorpion;
-    font-size: 16px;
-    line-height: 21px;
     align-self: flex-start;
   }
 
@@ -133,6 +133,8 @@
   }
 
   &__input-password {
+    @include Paragraph;
+
     height: 54px;
     width: 315px;
     border: 1px solid $geyser;
@@ -140,7 +142,6 @@
     background-color: $white;
     margin-top: 16px;
     color: $scorpion;
-    font-size: 16px;
     padding: 0 20px;
   }
 
@@ -254,10 +255,10 @@
   }
 
   &__learn-more {
+    @include H6;
+
     margin-top: 15px;
-    font-size: 14px;
     color: #5b5d67;
-    line-height: 19px;
     text-align: center;
     cursor: pointer;
 
@@ -356,23 +357,22 @@
   }
 
   &__title {
+    @include H5;
+
     margin-bottom: 23px;
     align-self: flex-start;
     color: $scorpion;
-    font-size: 16px;
-    line-height: 21px;
     font-weight: bold;
     display: flex;
     flex: 1;
   }
 
   &__device {
+    @include Paragraph;
+
     margin-bottom: 23px;
     align-self: flex-end;
     color: $scorpion;
-    font-size: 16px;
-    line-height: 21px;
-    font-weight: normal;
     display: flex;
   }
 
@@ -442,12 +442,12 @@
   margin-top: 10px;
 
   &__button {
+    @include H6;
+
     background: #fff;
     height: 19px;
     display: flex;
     color: #33a4e7;
-    font-size: 14px;
-    line-height: 19px;
     border: none;
     min-width: 46px;
     margin-right: 0;
@@ -511,21 +511,21 @@
   padding: 30px;
 
   &__input-label {
+    @include Paragraph;
+
     color: $scorpion;
-    font-size: 16px;
-    line-height: 21px;
     align-self: flex-start;
   }
 
   &__input {
+    @include Paragraph;
+
     height: 54px;
     width: 315.84px;
     border: 1px solid $geyser;
     border-radius: 4px;
     background-color: $white;
     color: $scorpion;
-    font-size: 16px;
-    line-height: 21px;
     margin-top: 15px;
     padding: 0 20px;
   }

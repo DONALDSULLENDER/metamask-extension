@@ -41,10 +41,10 @@
     }
 
     &__title {
+      @include H5;
+
       color: $black;
-      font-size: 16px;
       font-weight: 500;
-      line-height: 16px;
       display: flex;
       justify-content: center;
       align-items: flex-start;

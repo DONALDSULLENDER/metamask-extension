@@ -27,12 +27,12 @@
   }
 
   &__main-view &__tab {
+    @include H7;
+
     flex-grow: 1;
     color: $Grey-500;
     padding: 16px 8px;
-    font-size: 14px;
     font-weight: 500;
-    line-height: 130%;
   }
 
   &__main-view &__tab--active {

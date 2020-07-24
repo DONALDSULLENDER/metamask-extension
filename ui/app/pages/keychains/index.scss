@@ -62,17 +62,17 @@
 }
 
 .import-account__title {
+  @include H1;
+
   color: #1b344d;
-  font-size: 40px;
-  line-height: 51px;
   margin-bottom: 10px;
 }
 
 .import-account__back-button {
+  @include Paragraph;
+
   margin-bottom: 18px;
   color: #22232c;
-  font-size: 16px;
-  line-height: 21px;
   position: absolute;
   top: -25px;
 }
@@ -93,8 +93,7 @@
 }
 
 .import-account__faq-link {
-  font-size: 18px;
-  line-height: 23px;
+  @include H4;
 }
 
 .import-account__selector-label {
@@ -103,14 +102,14 @@
 }
 
 .import-account__dropdown {
+  @include H4;
+
   width: 325px;
   border: 1px solid #cdcdcd;
   border-radius: 4px;
   background-color: #fff;
   margin-top: 14px;
   color: #5b5d67;
-  font-size: 18px;
-  line-height: 23px;
   padding: 14px 21px;
   appearance: none;
   -webkit-appearance: none;
@@ -119,9 +118,9 @@
 }
 
 .import-account__description-text {
+  @include H4;
+
   color: #757575;
-  font-size: 18px;
-  line-height: 23px;
   margin-top: 21px;
 }
 
@@ -132,18 +131,18 @@
 }
 
 .import-account__input-error-message {
+  @include Paragraph;
+
   margin-top: 10px;
   width: 422px;
   color: #ff001f;
-  font-size: 16px;
-  line-height: 21px;
 }
 
 .import-account__input-label {
+  @include H4;
+
   margin-bottom: 9px;
   color: #1b344d;
-  font-size: 18px;
-  line-height: 23px;
 }
 
 .import-account__input-label__disabled {
@@ -165,12 +164,13 @@
 }
 
 .import-account__file-input-label {
+  @include H4;
+
   height: 53px;
   width: 148px;
   border: 1px solid #1b344d;
   border-radius: 4px;
   color: #1b344d;
-  font-size: 18px;
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
@@ -185,8 +185,8 @@
 }
 
 .import-account__file-name {
+  @include H4;
+
   color: #000;
-  font-size: 18px;
-  line-height: 23px;
   margin-left: 22px;
 }

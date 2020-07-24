@@ -309,7 +309,8 @@ textarea.twelve-word-phrase {
 }
 
 .buy-inputs {
-  font-size: 13px;
+  @include H6;
+
   height: 20px;
   background: transparent;
   box-sizing: border-box;
@@ -352,9 +353,10 @@ textarea.twelve-word-phrase {
 }
 
 .ex-coins {
+  @include H2;
+
   text-transform: uppercase;
   text-align: center;
-  font-size: 33px;
   width: 118px;
   height: 42px;
   padding: 1px;
@@ -362,9 +364,9 @@ textarea.twelve-word-phrase {
 }
 
 .marketinfo {
+  @include Paragraph;
+
   color: $silver-chalice;
-  font-size: 15px;
-  line-height: 17px;
 }
 
 #fromCoin::-webkit-calendar-picker-indicator {

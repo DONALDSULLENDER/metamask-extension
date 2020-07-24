@@ -57,14 +57,14 @@
 }
 
 .confirm-screen-header {
+  @include H4;
+
   height: 88px;
   background-color: $athens-grey;
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 22px;
-  line-height: 29px;
   width: 100%;
   padding: 25px 0;
   flex: 0 0 auto;
@@ -96,8 +96,9 @@
 }
 
 .confirm-screen-back-button {
+  @include Paragraph;
+
   color: $primary-blue;
-  font-size: 1rem;
   position: absolute;
   top: 38px;
   right: 38px;
@@ -111,21 +112,20 @@
 }
 
 .confirm-screen-account-name {
+  @include H7;
+
   margin-top: 12px;
-  font-size: 14px;
-  line-height: 19px;
   color: $scorpion;
   text-align: center;
 }
 
 .confirm-screen-row-info {
-  font-size: 16px;
-  line-height: 21px;
+  @include Paragraph;
 }
 
 .confirm-screen-account-number {
-  font-size: 10px;
-  line-height: 16px;
+  @include H8;
+
   color: $dusty-gray;
   text-align: center;
   height: 16px;
@@ -156,24 +156,25 @@
 }
 
 .confirm-screen-sending-to-message {
+  @include Paragraph;
+
   text-align: center;
-  font-size: 16px;
   margin-top: 30px;
   font-weight: 300;
 }
 
 .confirm-screen-send-amount {
+  @include H1;
+
   color: $scorpion;
   margin-top: 12px;
   text-align: center;
-  font-size: 40px;
-  line-height: 53px;
   flex: 0 0 auto;
 }
 
 .confirm-screen-send-amount-currency {
-  font-size: 20px;
-  line-height: 20px;
+  @include H4;
+
   text-align: center;
   flex: 0 0 auto;
 }
@@ -186,15 +187,14 @@
 }
 
 .confirm-screen-send-memo {
+  @include Paragraph;
+
   color: $scorpion;
-  font-size: 16px;
-  line-height: 19px;
-  font-weight: 400;
 }
 
 .confirm-screen-label {
-  font-size: 16px;
-  line-height: 40px;
+  @include Paragraph;
+
   color: $scorpion;
   text-align: left;
 }
@@ -218,14 +218,14 @@ section .confirm-screen-account-number,
 }
 
 .confirm-screen-row {
+  @include Paragraph;
+
   display: flex;
   flex-flow: row nowrap;
   width: 100%;
   align-items: center;
   padding: 12px;
   padding-left: 35px;
-  font-size: 16px;
-  line-height: 22px;
 
   &:not(:last-of-type) {
     border-bottom: 1px solid $alto;
@@ -249,8 +249,8 @@ section .confirm-screen-account-number,
 }
 
 .confirm-screen-row-detail {
-  font-size: 12px;
-  line-height: 16px;
+  @include H7;
+
   color: $dusty-gray;
 }
 
@@ -267,20 +267,19 @@ section .confirm-screen-account-number,
   }
 
   &__subtitle {
-    font-size: 12px;
-    line-height: 16px;
+    @include H7;
   }
 
   .confirm-screen-row-info {
-    font-size: 16px;
+    @include Paragraph;
+
     font-weight: 500;
-    line-height: 21px;
   }
 }
 
 .confirm-screen-error {
-  font-size: 12px;
-  line-height: 12px;
+  @include H7;
+
   color: #f00;
   position: absolute;
   right: 12px;
@@ -314,10 +313,11 @@ section .confirm-screen-account-number,
 }
 
 .confirm-screen-confirm-button {
+  @include Paragraph;
+
   height: 50px;
   border-radius: 4px;
   background-color: #02c9b1;
-  font-size: 16px;
   color: $white;
   text-align: center;
   padding-top: 15px;
@@ -329,6 +329,8 @@ section .confirm-screen-account-number,
 }
 
 .btn-light.confirm-screen-cancel-button {
+  @include Paragraph;
+
   height: 50px;
   background: none;
   border: none;
@@ -336,7 +338,6 @@ section .confirm-screen-account-number,
   border-width: 0;
   padding-top: 15px;
   padding-bottom: 15px;
-  font-size: 16px;
   box-shadow: none;
   cursor: pointer;
   flex: 1 0 auto;

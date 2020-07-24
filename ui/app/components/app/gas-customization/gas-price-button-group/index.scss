@@ -87,8 +87,8 @@
   }
 
   &__primary-currency {
-    font-size: 12px;
-    line-height: 12px;
+    @include H7;
+
     padding-bottom: 2px;
 
     @media screen and (max-width: 575px) {
@@ -97,8 +97,8 @@
   }
 
   &__secondary-currency {
-    font-size: 12px;
-    line-height: 12px;
+    @include H7;
+
     padding-bottom: 2px;
 
     @media screen and (max-width: 575px) {

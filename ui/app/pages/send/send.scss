@@ -12,10 +12,10 @@
     }
 
     .page-container__header-close-text {
+      @include H5;
+
       @extend %link;
 
-      font-size: 1rem;
-      line-height: 1.1875rem;
       position: absolute;
       right: 1rem;
     }
@@ -76,10 +76,10 @@
       @extend %col-nowrap;
 
       &__load-more {
+        @include H7;
+
         @extend %link;
 
-        font-size: 0.75rem;
-        line-height: 1.0625rem;
         padding: 0.5rem;
         text-align: center;
         border-bottom: 1px solid $alto;
@@ -95,7 +95,6 @@
 
       background-color: $Grey-000;
       color: $Grey-600;
-      line-height: 0.875rem;
       padding: 0.5rem 1rem;
       border-bottom: 1px solid $alto;
 
@@ -130,8 +129,8 @@
       }
 
       &__title {
-        font-size: 0.875rem;
-        line-height: 1.25rem;
+        @include H6;
+
         color: $black;
       }
 
@@ -229,9 +228,8 @@
         &__input {
           @extend %col-nowrap;
 
-          font-size: 0.75rem;
-          line-height: 0.75rem;
-          font-weight: 400;
+          @include H7;
+
           color: $Blue-500;
         }
       }

@@ -22,11 +22,11 @@
     display: flex;
 
     .button {
-      font-size: 0.625rem;
+      @include H8;
+
       padding: 8px;
       width: 75px;
       white-space: nowrap;
-      line-height: 1rem;
     }
 
     &:empty {

@@ -70,12 +70,11 @@
   }
 
   &__sub-header-text {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
+    @include H4;
 
     @media screen and (max-width: 575px) {
-      font-size: 16px;
+      @include H5;
+
       width: 100%;
     }
   }
@@ -212,8 +211,8 @@
   }
 
   &__address-book-button {
-    font-size: 1rem;
-    line-height: 1.1875rem;
+    @include H5;
+
     padding: 0;
   }
 
