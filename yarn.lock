@@ -15743,6 +15743,13 @@ json-parse-better-errors@^1.0.1, json-parse-better-errors@^1.0.2:
   resolved "https://registry.yarnpkg.com/json-parse-better-errors/-/json-parse-better-errors-1.0.2.tgz#bb867cfb3450e69107c131d1c514bab3dc8bcaa9"
   integrity sha512-mrqyZKfX5EhL7hvqcV6WG1yYjnjeuYDzDhhcAAUrq8Po85NBQBJP+ZDUT75qZQ98IkUoBqdkExkukOU7Ts2wrw==
 
+json-rpc-engine@./json-rpc-engine-5.2.0.tgz:
+  version "5.2.0"
+  resolved "./json-rpc-engine-5.2.0.tgz#2e6985c301c6df38c6657b151ca46ca16d283417"
+  dependencies:
+    eth-rpc-errors "^2.1.1"
+    safe-event-emitter "^1.0.1"
+
 json-rpc-engine@^3.4.0, json-rpc-engine@^3.6.0:
   version "3.8.0"
   resolved "https://registry.yarnpkg.com/json-rpc-engine/-/json-rpc-engine-3.8.0.tgz#9d4ff447241792e1d0a232f6ef927302bb0c62a9"
